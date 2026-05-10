@@ -4,7 +4,7 @@ class AntiCrm < Formula
   version "0.1.1"
   license "Apache-2.0"
 
-  depends_on "bun"
+  depends_on "oven-sh/bun/bun"
 
   on_macos do
     on_arm do
